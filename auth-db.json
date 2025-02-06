@@ -1,0 +1,9 @@
+{
+  "users": [
+    {
+      "email": "user@example.com",
+      "password": "$2a$10$eHUzzsY1tbOmyGVqPwVEsuYRQb4LP2Hw/dMXgxp5p8eYE4UgcZMA.", 
+      "id": 1
+    }
+  ]
+}
