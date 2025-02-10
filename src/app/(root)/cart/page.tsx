@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useCartContext } from "@/components/providers/ZustandProvider";
 
-const CartPage = async () => {
+const CartPage = () => {
 
   const { products, removeProduct } = useCartContext((state) => state)
 

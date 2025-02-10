@@ -18,7 +18,7 @@ const ProductList = () => {
     gcTime: 5000
   })
 
-  if (isLoading) <>'Loading...'</>
+  if (isLoading) <>Loading...</>
   if(!products) {return}
 
   return (
@@ -27,12 +27,12 @@ const ProductList = () => {
       {products.data.map((product) => (
         <div className="flex border gap-4 rounded-md" key={product.id}>
           <div className="w-[150px] h-[200px] flex-shrink-0">
-            <Image
+          <Image
               className="rounded-sm h-full w-full object-cover"
               width={150}
               height={150}
               src={product.images}
-              alt={product.title}
+              alt={product.title} 
             />
           </div>
           <div className="flex flex-col p-4 justify-between">

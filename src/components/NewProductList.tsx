@@ -19,13 +19,14 @@ const NewProductList = async () => {
               className="w-[120px] flex flex-col border gap-4 rounded-md"
               href={`/product/${product.id}/view`}
             >
-              <Image
-                className="rounded-sm object-cover w-[120px] h-[120px]"
-                width={120}
-                height={120}
-                src={product.images}
-                alt={product.title}
-              />
+            <Image
+              className="rounded-sm object-cover w-[120px] h-[120px]"
+              width={120}
+              height={120}
+              src={product.images}
+              alt={product.title}
+            /> 
+             
               <div className="flex flex-col p-4 justify-between">
                 <div>
                   <h2 className="text-md font-medium line-clamp-1">
